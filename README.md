@@ -1,4 +1,4 @@
-#Hybrid AI chatbot and spam detection system 
+# Hybrid AI chatbot and spam detection system 
 Developed a hybrid AI application integrating a self-learning chatbot and a spam classification model. The chatbot dynamically learns from user interactions and stores knowledge persistently using JSON, while the spam detection module leverages TF-IDF vectorization and Naive Bayes for accurate text classification. Designed for scalability and easy deployment on platforms like Google Colab.
 
 
