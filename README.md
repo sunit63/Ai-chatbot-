@@ -1,106 +1,83 @@
-# Hybrid AI chatbot and spam detection system 
-<!-- 🔥 HEADER -->
+<!-- HEADER -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:FF0000&height=220&section=header&text=AI%20CHATBOT%20%2B%20SPAM%20DETECTOR&fontSize=40&fontColor=FFFFFF&animation=fadeIn"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:FF0000&height=220&section=header&text=AI%20CHATBOT%20%2B%20SPAM%20DETECTOR&fontSize=40&fontColor=FFFFFF"/>
 </p>
 
-<!-- 🔥 TYPING ANIMATION -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?color=FF0000&size=22&center=true&vCenter=true&lines=Self+Learning+Chatbot+🤖;Spam+Detection+System+📩;Machine+Learning+Project+🔥;Built+with+Python+🐍"/>
-</p>
-
----
-
-# 🧠 PROJECT OVERVIEW
-
-<p align="center">
-
-💀 This project is a combination of:  
-
-🤖 **Self-Learning Chatbot**  
-📩 **Spam Detection System**  
-
-⚡ Built using Machine Learning + NLP  
-
-🚀 The chatbot learns from user input  
-🔥 The spam model detects real-world spam messages  
-
+  <img src="https://readme-typing-svg.herokuapp.com/?color=FF0000&size=22&center=true&vCenter=true&lines=Self+Learning+Chatbot;Spam+Detection+System;Built+with+Python"/>
 </p>
 
 ---
 
-# 🎥 PROJECT DEMO
+## 🧠 PROJECT OVERVIEW
+
+This project includes:
+
+- 🤖 Self-learning chatbot (JSON based memory)
+- 📩 Spam detection system (ML model)
+
+The chatbot learns from user input and saves responses.  
+The spam model detects spam messages using machine learning.
+
+---
+
+## 🎥 DEMO
 
 <p align="center">
-<img src="https://media.giphy.com/media/3o7btPCcdNniyf0ArS/giphy.gif" width="70%"/>
+<img src="https://media.giphy.com/media/3o7btPCcdNniyf0ArS/giphy.gif" width="70%">
 </p>
 
 ---
 
-# ⚙️ FEATURES
+## ⚙️ FEATURES
 
-<p align="center">
-
-✔ Self-learning chatbot (stores knowledge in JSON)  
-✔ Fuzzy matching (smart replies)  
-✔ Spam detection using TF-IDF + Naive Bayes  
-✔ Train your own dataset  
-✔ Interactive CLI interface  
-
-</p>
+- Self-learning chatbot  
+- Smart reply using fuzzy matching  
+- Spam detection (TF-IDF + Naive Bayes)  
+- Train model using dataset  
+- CLI-based interaction  
 
 ---
 
-# 🧠 HOW IT WORKS
+## 🧠 HOW IT WORKS
 
-### 🤖 Chatbot Flow
-```mermaid
-graph TD;
-A[User Input] --> B{Known?}
-B -->|Yes| C[Reply from Memory]
-B -->|No| D[Learn New Response]
-D --> E[Save to JSON]
-```
+### Chatbot
+- User enters text  
+- If found → reply from JSON  
+- If not → asks user to teach  
+- Saves data in `sk.json`  
 
-### 📩 Spam Detection Flow
-```mermaid
-graph TD;
-A[Input Text] --> B[TF-IDF Vectorizer]
-B --> C[Naive Bayes Model]
-C --> D[Spam / Not Spam]
-```
+### Spam Detection
+- Upload CSV dataset  
+- Train model  
+- Input text  
+- Predict: Spam / Not Spam  
 
 ---
 
-# 🚀 TECH STACK
+## 🚀 TECH STACK
 
 <p align="center">
 
-<img src="https://skillicons.dev/icons?i=python" height="60"/>
-
-<br><br>
-
-<img src="https://img.shields.io/badge/Pandas-000000?style=for-the-badge&logo=pandas&logoColor=FF0000"/>
-<img src="https://img.shields.io/badge/NumPy-000000?style=for-the-badge&logo=numpy&logoColor=00F7FF"/>
+<img src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=FF0000"/>
+<img src="https://img.shields.io/badge/Pandas-000000?style=for-the-badge&logo=pandas&logoColor=00F7FF"/>
+<img src="https://img.shields.io/badge/NumPy-000000?style=for-the-badge&logo=numpy&logoColor=FFFFFF"/>
 <img src="https://img.shields.io/badge/Scikit--Learn-000000?style=for-the-badge&logo=scikit-learn&logoColor=FF0000"/>
-<img src="https://img.shields.io/badge/Machine%20Learning-000000?style=for-the-badge&logo=google&logoColor=FF0000"/>
-<img src="https://img.shields.io/badge/NLP-000000?style=for-the-badge&logo=spacy&logoColor=00F7FF"/>
 
 </p>
 
 ---
 
-# 🛠️ HOW TO RUN
+## 🛠️ HOW TO RUN
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
 pip install pandas scikit-learn
 python main.py
 ```
 
 ---
 
-# 📂 DATASET FORMAT
+## 📂 DATASET FORMAT
 
 ```csv
 text,label
@@ -110,30 +87,16 @@ text,label
 
 ---
 
-# 💡 FUTURE IMPROVEMENTS
+## 📁 FILE USED
 
-✔ GUI (Streamlit / Web App)  
-✔ Deep Learning Model  
-✔ Voice Chatbot  
-✔ API Integration  
+- `sk.json` → stores chatbot data  
 
 ---
 
-# 🧠 LEARNING OUTCOME
-
-✔ NLP basics  
-✔ TF-IDF Vectorization  
-✔ Naive Bayes Algorithm  
-✔ Model Training  
-✔ Real-world AI workflow  
-
----
-
-<!-- 🔥 FOOTER -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF0000,100:000000&height=150&section=footer"/>
 </p>
 
 ---
 
-<h2 align="center">🔥 TRAIN • LEARN • PREDICT • EVOLVE 🔥</h2>
+### 💀 TRAIN • LEARN • PREDICT
